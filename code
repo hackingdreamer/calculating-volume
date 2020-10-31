@@ -1,0 +1,17 @@
+print("Welcome to our program")
+print("Enter key 1 for calculate the volume of hemisphere")
+print("Enter key 2 for calculate the volume of sphere")
+
+a=int(input("Enter the number "))
+
+if(a==1):
+    r=int(input("Enter radius of hemisphere"))
+    volume=(2*3.14*r)/3
+    print("volume of hemisphere {0:.2f}",format(vol))
+elif(a==2):
+    r=int(input("Enter radius of sphere"))
+    vol=(4/*3.14*r**3)/3
+    print("volume of sphere {0:.2f}",format(vol))
+else:
+    print("You choose wrong key")
+             
